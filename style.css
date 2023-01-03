@@ -1,0 +1,62 @@
+body{
+    background-image:url(backgroundImg.jpg)
+}
+
+.heading{
+    margin: 10px 5px 0px 5px;
+    color: black;
+    padding-left: 20px;
+    background-color:#fafafa;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    
+}
+.imgs{
+    width: 300px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.card-text{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+h3{
+    background-color: black;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+[href]{
+    display: block;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+#search{
+    margin: 10px;
+    border-radius: 20px;
+    width: 700px;
+    padding-left: 30px;
+    border: 5px solid brown;
+}
+.search{
+   display: flex;
+   justify-content: center;
+}
+@media screen and (max-width: 768px){
+    #search{
+       
+        width: 300px;
+        
+
+}
+.imgs{
+    padding-left: 70px;
+}
+}
