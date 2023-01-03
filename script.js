@@ -50,7 +50,7 @@ var search = () => {
   var companyname = document.getElementsByTagName("h3"); // to get companyname
   for (var i = 0; i < companyname.length; i++) {   // for loop for check company name one by one.
     var match = companyname[i].outerText;          //.outerText for to take name inside html collections
-     //converting Companyname into uppercase , .indexof check the string index matching with match, if matches return true(1) not matches return false(0)
+     //if any index matches index values greater than -1
     if (match.toUpperCase().indexOf(values) > -1) {    
      
       allContainers[i].style.display = "";    //condition satisfied container remains
